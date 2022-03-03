@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --sans: "Open Sans";
+    --mont: "Montserrat";
+}
+
+header {
+    background-image: url("../img/greece.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+header .header-item h6 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+header .header-item form input {
+    width: 326px;
+    font: 400 16px var(--sans);
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    outline: none;
+    border: none;
+    padding: 10px 0 10px 17px;
+    border-radius: 5px 0 0 5px;
+}
+
+header .header-item input::placeholder {
+    color: #8b8b8b;
+}
+
+header .header-item form button {
+    font: bold 16px var(--sans);
+    width: 122px;
+    background-color: #fd4f32;
+    padding: 10px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 0 5px 5px 0;
+}
+
+header .header-item form {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+header .header-item {
+    margin-top: 220px;
+}
+
+/* end header */
+/* start section */
+#places {
+    background-color: #eeeeee;
+    padding-top: 40px;
+}
+
+#places .general {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+
+#places h6 {
+    font: 400 15px var(--sans);
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    margin-top: 10px;
+}
+
+#places span {
+    font: 400 16px var(--mont);
+    letter-spacing: 0px;
+    color: #323232;
+}
+
+
+#places .paragraph p {
+    font: 400 13px var(--sans);
+    line-height: 19px;
+    color: #696969;
+
+}
+
+#places .paragraph h2 {
+    font: 700 14px var(--mont);
+    letter-spacing: 0px;
+    color: #323232;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.general>div{
+width: 25%;
+margin:0 5px;
+background-color: #fff;
+}
+.general div img{
+width: 100%;
+height: 200px;
+}
+.general .paragraph{
+    padding: 15px;
+}
+/* end places 128-140 ask!    */       
+/* start last section */
+#last {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#last h1 {
+    font: 300 52px var(--sans);
+    letter-spacing: 2px;
+    color: #323232;
+    margin-bottom: 20px;
+}
+
+#last .paragraph-part span {
+    font: 400 16px var(--mont);
+    letter-spacing: 0px;
+    color: #323232;
+    text-transform: uppercase;
+}
+
+#last .paragraph-part p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding: 10px 0;
+}
+
+#last .paragraph-part {
+    width: 23%;
+
+}
+#last .paragraph{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.last-item h3 {
+    font: 400 16px var(--mont);
+    letter-spacing: 0px;
+    color: #323232;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.last-item form input {
+    width: 300px;
+    font: 400 16px var(--sans);
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 5px 0 0 5px
+}
+
+.last-item form button {
+    font: bold 16px var(--sans);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    background-color: #fd4f32;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 0 5px 5px 0;
+}
+
+.last-item form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* end last */
+footer {
+    background-color: #eeeeee;
+    padding: 20px 0;
+}
+footer .footer span{
+    font: 400 14px var(--sans);
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+}
+footer ul li {
+    display: inline-block;
+}
+
+footer .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul li a {
+    font: 400 14px var(--mont);
+    letter-spacing: 0px;
+    color: #323232;
+    text-transform: uppercase;
+    padding:20px;
+}
